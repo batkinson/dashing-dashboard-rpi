@@ -20,6 +20,9 @@ GEM
       sprockets
       thin
       thor
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
     equalizer (0.0.9)
     eventmachine (1.0.3)
     execjs (2.0.2)
@@ -86,4 +89,5 @@ PLATFORMS
 
 DEPENDENCIES
   dashing
+  dotenv
   twitter (>= 5.0.0)
