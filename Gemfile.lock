@@ -90,4 +90,5 @@ PLATFORMS
 DEPENDENCIES
   dashing
   dotenv
+  json
   twitter (>= 5.0.0)
