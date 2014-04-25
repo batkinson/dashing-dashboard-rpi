@@ -11,3 +11,6 @@ gem 'twitter', '>= 5.0.0'
 ## Used for asana
 gem 'json'
 
+## Used for google calendar
+gem 'nokogiri'
+

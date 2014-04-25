@@ -1,0 +1,7 @@
+<h1 class="subtitle" data-bind="event.time"></h1>
+<h2 class="title" data-bind="event.title"></h2>
+
+<h3 data-bind="event.body | raw"></h3>
+<p class="more-info" data-bind="moreinfo | raw"></p>
+
+<p class="updated-at" data-bind="updatedAtMessage | prepend ' | ' | prepend event.calendar"></p>

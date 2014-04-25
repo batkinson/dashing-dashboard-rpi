@@ -1,0 +1,52 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #ec663c;
+
+$title-color:       rgba(255, 255, 255, 1);
+$subtitle-color:    rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+$private-color: rgb(123, 209, 72);
+$holidays-color: rgb(200, 200, 70);
+
+// ----------------------------------------------------------------------------
+// Widget-calendar styles
+// ----------------------------------------------------------------------------
+.widget-calendar {
+  transition: background-color 2s linear;
+  -moz-transition: background-color 2s linear;
+  -o-transition: background-color 2s linear;
+  -webkit-transition: background-color 2s linear;
+
+  background-color: $background-color;
+  .subtitle {
+	color: $subtitle-color;
+	font-size: 20px;
+	margin: 15px 0;
+  }
+  .title {
+    color: $title-color;
+	font-size: 30px;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+
+  &.large h3 {
+    font-size: 65px;
+  }
+}
+.calendar-name-private {
+	background-color: $private-color;
+}
+
+.calendar-name-holidays {
+	background-color: $holidays-color;
+}
