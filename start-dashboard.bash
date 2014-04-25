@@ -2,13 +2,14 @@
 
 set -o errexit
 
+DASHBOARD=$HOME/dashboard
 URL=http://localhost:3030/sampletv
 
 ##
 # Start the dashboard, if URL is not already available
 ##
 if [ "$(curl --output /dev/null --silent -w '%{http_code}' --fail $URL)" != "200" ]; then
-  dashing start >& /dev/null &
+  cd "$DASHBOARD" && dashing start >& /dev/null &
 fi
 
 ##
