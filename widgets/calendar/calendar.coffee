@@ -30,12 +30,5 @@ class Dashing.Calendar extends Dashing.Widget
 			@set('event',event)
 
 	setBackgroundClassBy: (name) =>
-		@removeBackgroundClass()
 		$(@node).addClass "calendar-name-#{name.toLowerCase()}"
 
-	removeBackgroundClass: =>
-		classNames = $(@node).attr("class").split " "
-
-		for className in classNames
-			match = /calendar-name-(.*)/.exec className
-			$(@node).removeClass match[0] if match
