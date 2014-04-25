@@ -2,7 +2,7 @@ require 'net/http'
 require 'openssl'
 require 'json'
 
-github_username = ENV['GITHUB_USERINFO_USERNAME'] || 'users/batkinson'
+github_username = ENV['GITHUB_USERINFO_USERNAME']
 
 SCHEDULER.every '5m', :first_in => 0 do |job|
   http = Net::HTTP.new("api.github.com", Net::HTTP.https_default_port())
