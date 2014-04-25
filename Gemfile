@@ -8,7 +8,7 @@ gem 'dotenv'
 ## Remove this if you don't need a twitter widget.
 gem 'twitter', '>= 5.0.0'
 
-## Used for asana
+## Used for asana and weather
 gem 'json'
 
 ## Used for google calendar and bbc news
