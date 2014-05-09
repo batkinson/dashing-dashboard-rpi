@@ -1,1 +1,1 @@
-Check out http://shopify.github.com/dashing for more information.
+This is a complete Dashing dashboard as described in my blog post on [how to build an information radiator with Dashing](http://fmrldev.blogspot.com/2014/04/raspberry-pi-information-radiator_29.html). Check out http://shopify.github.com/dashing for more information.
